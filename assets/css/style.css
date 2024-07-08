@@ -336,10 +336,10 @@ main {
 
 .info_more-btn {
   position: absolute;
-  top: -15px;
-  right: -15px;
-  border-radius: 0 15px;
-  font-size: 13px;
+  top: -16px;
+  right: -16px;
+  border-radius: 0 10px;
+  font-size: 10px;
   color: var(--orange-yellow-crayola);
   background: var(--border-gradient-onyx);
   padding: 10px;
@@ -352,7 +352,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  border-radius: inherit;
+  border-radius: 0 10px;
   background: var(--bg-gradient-jet);
   transition: var(--transition-1);
   z-index: -1;
@@ -1173,9 +1173,9 @@ main {
     * shadow
     */
 
-    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
-    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
-    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
+    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0);
+    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0);
+    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0);
 
   }
 
@@ -1380,4 +1380,16 @@ main {
 
   .social-list { justify-content: center; }
 
+}
+
+.timeline-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.timeline-text span {
+  margin-left: 7px; /* Thêm khoảng cách nếu cần thiết */
+  font-weight: 400;
+  font-style: italic  ;
 }
