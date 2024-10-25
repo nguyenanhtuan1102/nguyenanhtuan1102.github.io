@@ -7,8 +7,8 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(0, 0%, 0%) 0%, 
+    to bottom right,
+    hsl(0, 0%, 0%) 0%,
     hsl(0, 0%, 0%) 0%
   );
   --bg-gradient-jet: linear-gradient(
